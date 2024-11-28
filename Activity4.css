@@ -1,0 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: times new roman;
+    position: center;
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inm {
+    padding-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.butones {
+    width: 100%;
+    height: 10vh;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.butones a{
+    text-decoration-line: none;
+}
